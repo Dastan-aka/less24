@@ -9959,6 +9959,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2.25rem 0;
 }
 
+@media screen and (min-width: 768px) {
+  .nav-item {
+    padding-top: 0.9375rem;
+  }
+}
+@media screen and (min-width: 480px) {
+  .nav-item {
+    padding-top: 0.9375rem;
+  }
+}
+
 .navbar-nav__link {
   font-family: var(--font), sans-serif;
   font-size: 0.9375rem;
@@ -9993,6 +10004,18 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--main-color);
 }
 
+@media screen and (min-width: 480px) {
+  .navbar-brand {
+    margin-left: 0.9375rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .navbar {
+    margin-right: 0.9375rem;
+  }
+}
+
 .slider__control {
   font-size: 30px;
 }
@@ -10012,6 +10035,28 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.slider-title {
+  color: white;
+  letter-spacing: 0.3125rem;
+  text-transform: uppercase;
+}
+
+.slider-text {
+  font-size: 0.9375rem;
+  color: #a3b1bf;
+  margin-bottom: 1.875rem;
+}
+
+.btn-slider {
+  background-color: #00bb9b;
+  border-radius: 3px;
+  font-weight: 700;
+  padding: 0.9375rem 3.125rem;
+  color: white;
+  border: none;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=main.css.map */

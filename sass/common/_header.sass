@@ -19,11 +19,15 @@
 .navbar--top
     padding: rem(36px) 0
 
+.nav-item
+    +tablet
+        padding-top: rem(15px)
+    +phone
+        padding-top: rem(15px)
 .navbar-nav__link
     +use-font($font, rem(15px), $mainColor, 700)
     text-transform: uppercase
     margin: 0 rem(15px)
-
     &:hover
         color: $mainColor
 
@@ -45,3 +49,9 @@
     background: none
     .fa-search
         color: $mainColor
+.navbar-brand
+    +phone
+        margin-left: rem(15px)
+.navbar
+    +phone
+        margin-right: rem(15px)
