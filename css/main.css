@@ -10214,4 +10214,69 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.conclusion {
+  padding: 3.75rem 0;
+  background: #2f3f51;
+}
+
+.item-title-2 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.item-text {
+  font-size: 0.875rem;
+  color: #a3b1bf;
+  margin-bottom: 20px;
+}
+
+.item-link {
+  color: #a3b1bf;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.smallWorks {
+  max-width: 7.8125rem;
+  max-height: 5.3125rem;
+  margin-bottom: 1.25rem;
+}
+
+.margin-bm-0 {
+  margin-bottom: 0;
+}
+
+.form-item {
+  background-color: #a3b1bf3f;
+  border-radius: 3px;
+}
+
+.item-form {
+  background: none;
+  border: none;
+  font-size: 0.625rem;
+  color: #828e99;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.item-button {
+  text-align: center;
+  border-radius: 3px;
+  max-height: 1.9375rem;
+  background: #00bb9b;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  margin-top: 0.3125rem;
+}
+
 /*# sourceMappingURL=main.css.map */
