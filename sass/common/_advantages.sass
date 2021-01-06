@@ -9,15 +9,21 @@
     color: #73879c
     text-align: center
     line-height: rem(25px)
-    padding: 0 rem(125px)
+    max-width: rem(700px)
+    margin: auto 
     margin-bottom: rem(40px)
-    +phone
-        padding: 0
 
 .inline
+    position: absolute
     color: #00bc9c
     font-size: rem(44px)
-    margin-right: rem(15px)
+.place
+    +phone
+        left: 4%
+    +laptop
+        left: 9%
+.item-info
+    margin-left: rem(60px)
 .item-title
     color: #506a85
     letter-spacing: rem(1px)
@@ -27,4 +33,5 @@
     line-height: rem(25px)
 .flex
     display: flex
+    position: relative
     justify-content: space-between
